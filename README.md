@@ -4,7 +4,7 @@ Official source code for paper 《A Quantum Circuit-Based Compression Perspectiv
 
 --- 
 
-Overall Architecture of our propsed QPA
+Overall Architecture of our proposed QPA
 
 ![image](https://github.com/CYLphysics/QPA/blob/main/figure/flow_.png)
 
