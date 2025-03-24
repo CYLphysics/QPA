@@ -25,6 +25,14 @@ We use the [TorchQuantum](https://github.com/mit-han-lab/torchquantum/tree/main)
 ```bash
 python train.py
 ```
+We can also run in in the backgroud and record the process into the log file
+```bash
+nohup python -u train.py > log/output_QPA_GPT2_rank_4.log &
+```
+and use `watch` to monitor the process
+```bash
+watch -n 0.5 tail -n 50 log/output_QPA_GPT2_rank_4.log
+```
 
 ## Citation
 If you find this code or idea useful, please cite our work:
